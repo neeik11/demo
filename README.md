@@ -1,15 +1,15 @@
 # demo
 This is a demo
 Hello World!!!
-## Demo 2
-### Demo 3
-#### Demo 4
-##### Demo 5
-###### Demo 6
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
 ---------------
 [Wikipedia](https://wikipedia.org)
 ---------------
-**Bold**
+**Bold**--
 *Italic*
 ```
 auto eth0
@@ -25,3 +25,4 @@ dns-nameservers 8.8.8.8
   - Security: Role Based Access Support
   - Maintainance: upgrade, backup, restore 
   - Administration: LDAP, IP restriction, Access key, AD integration
+> Setup network for all. Add new system -> add sites. Bulk approve all devices -> Assign devices to sites. Create storage pool(width) -> Pick slicestors used in pool. Create vault(width/threshold/write). Create access pool -> pick accesser device & deployment vault. Create user & grant access to vault
