@@ -1,7 +1,8 @@
 # Installation
 - Login with root (connect Internet)
-> su -
-  curl -sSL https://get.docker.com/ | sudo sh
+```su -
+   curl -sSL https://get.docker.com/ | sudo sh
+```
 
 - Grant permission for user
 > sudo usermod -aG docker `whoami`
