@@ -26,3 +26,9 @@ dns-nameservers 8.8.8.8
   - Maintainance: upgrade, backup, restore 
   - Administration: LDAP, IP restriction, Access key, AD integration
 > Setup network for all. Add new system -> add sites. Bulk approve all devices -> Assign devices to sites. Create storage pool(width) -> Pick slicestors used in pool. Create vault(width/threshold/write). Create access pool -> pick accesser device & deployment vault. Create user & grant access to vault
+
+| 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
