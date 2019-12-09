@@ -19,7 +19,7 @@ git config --list
 
 - Link github account via SSH
 ```
-# Create $ Add ssh key
+# Create & Add ssh key
 ssh-keygen -t rsa
 ls ~/.ssh/
 ssh-agent -s
