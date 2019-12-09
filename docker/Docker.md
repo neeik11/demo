@@ -56,6 +56,11 @@ docker ps -a
 docker ps
 ```
 
+- Name container
+```
+docker run --name <name> <imagename>
+```
+
 - Run a container with specified port
 ```
 # Map port 4000(host) to 80(container)
@@ -65,7 +70,7 @@ docker run -d -p 4000:80 httpd
 docker run -d -P nginx
 ```
 
-- Run an existing container
+- Run an existing container using terminal
 ```
 docker exec -it <container ID/name> /bin/bash
 ```
@@ -86,6 +91,21 @@ docker port <container ID/name>
 ```
 docker rm <container ID/name>
 docker rm -f <container ID/name>
+```
+
+- Delete all containers on host
+```
+docker rm -f $(docker ps -aq)
+```
+
+- Commit a container to image
+```
+docker commit <containername> <imagename>
+```
+
+- Start, stop & restart container
+```
+docker [restart | stop | start] <containername>
 ```
 
 ## Docker images
