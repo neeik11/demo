@@ -6,9 +6,9 @@ Hello World!!!
 #### Demo 4
 ##### Demo 5
 ###### Demo 6
-
-\n[Wikipedia](https://wikipedia.org)
-<img src="https://imgur.com/t/secret_santa_workshop/dt4JUD5">
+---------------
+[Wikipedia](https://wikipedia.org)
+---------------
 **Bold**
 *Italic*
 ```
