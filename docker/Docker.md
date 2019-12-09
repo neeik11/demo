@@ -29,6 +29,7 @@ docker run hello-world
 ```
 
 # Docker basic
+## Docker containers
 - Run a container
 ```
 docker run busybox echo 'Hello World'
@@ -86,4 +87,41 @@ docker port <container ID/name>
 docker rm <container ID/name>
 docker rm -f <container ID/name>
 ```
+
+## Docker images
+- Search images
+```
+docker search <imagename>
+```
+
+- Download image
+```
+docker pull <imagename>
+```
+
+- List all images
+```
+docker images
+```
+
+- Show image information 
+```
+docker image inspect <imagename>
+```
+
+- Show history commit of image
+```
+docker history <imagename>
+```
+
+- Delete image
+```
+docker rmi <imagename>
+```
+
+- Change image tag 
+```
+docker tag <imagename> <tagname>
+```
+
 
