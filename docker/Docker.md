@@ -6,7 +6,9 @@ curl -sSL https://get.docker.com/ | sudo sh
 ```
 
 - Grant permission for user
-> sudo usermod -aG docker `whoami`
+```
+sudo usermod -aG docker `whoami`
+```
 
 - Enable and start docker service 
 ```
@@ -16,7 +18,9 @@ systemctl status docker.service
 ```
 
 - Check docker version
-> docker version
+```
+docker version
+```
 
 - Test run docker
 ```
