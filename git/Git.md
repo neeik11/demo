@@ -60,3 +60,7 @@ git push origin master
 git pull
 ```
 
+- Log 
+```
+git log
+```
